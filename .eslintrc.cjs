@@ -62,6 +62,7 @@ module.exports = {
     ],
     "import/no-unresolved": ["error", { ignore: ["^virtual:"] }],
     "no-console": ["error", { allow: ["warn", "error"] }],
+    "unicorn/filename-case": "off",
     "unicorn/prevent-abbreviations": "off",
   },
 };
