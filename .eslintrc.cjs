@@ -64,5 +64,6 @@ module.exports = {
     "no-console": ["error", { allow: ["warn", "error"] }],
     "unicorn/filename-case": "off",
     "unicorn/prevent-abbreviations": "off",
+    "unicorn/no-null": "off",
   },
 };
