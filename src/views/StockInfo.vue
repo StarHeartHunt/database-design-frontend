@@ -74,6 +74,8 @@ const columns: DataTableColumns<StockInfo> = [
   {
     title: "ID",
     key: "id",
+    defaultSortOrder: "ascend",
+    sorter: "default",
   },
   {
     title: "产品 ID",

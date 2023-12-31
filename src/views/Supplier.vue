@@ -72,6 +72,8 @@ const columns: DataTableColumns<Supplier> = [
   {
     title: "ID",
     key: "id",
+    defaultSortOrder: "ascend",
+    sorter: "default",
   },
   {
     title: "名称",

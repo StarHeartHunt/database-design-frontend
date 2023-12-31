@@ -72,6 +72,8 @@ const columns: DataTableColumns<Order> = [
   {
     title: "ID",
     key: "id",
+    defaultSortOrder: "ascend",
+    sorter: "default",
   },
   {
     title: "员工 ID",
